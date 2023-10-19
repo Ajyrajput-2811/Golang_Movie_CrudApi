@@ -1,0 +1,17 @@
+# Ignore compiled Go binary files
+*.exe
+*.test
+*.prof
+/bin/
+/pkg/
+
+# Ignore editor-specific files and directories
+.vscode/
+.DS_Store
+
+# Ignore log files
+/log/
+
+# Ignore dependency and vendor directories
+/vendor/
+/Godeps/
